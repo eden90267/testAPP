@@ -21,7 +21,7 @@ const HomeStack = createStackNavigator({
   HomeMain: {
     screen: HomeMainScreen,
     navigationOptions: () => ({
-      title: '這是上方 title',
+      title: 'Home',
       headerBackTitle: null // '返回'
     })
   },
@@ -36,7 +36,7 @@ const ProfileStack = createStackNavigator({
   ProfileMain: {
     screen: ProfileScreen,
     navigationOptions: () => ({
-      title: '這是上方 title',
+      title: 'Profile',
       headerBackTitle: null // '返回'
     })
   },
